@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f8f8f8;
+}
+
+nav {
+  margin-top: 5%;
+}
+
+.navbar {
+  background: #102e3e;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 10px;
+}
+
+.navbar li {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.dropdown-navbar {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #29abe2;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.contenedor-navbar {
+  margin: 0% 10% 5% 10%;
+  height: 100px;
+}
+
+.banner-navbar {
+  background: #29abe2;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.banner-navbar p {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.fa-bars:hover {
+  color: #29abe2;
+}
+
+.fa-shopping-cart{
+  color:black;
+}
+
+.carrito-completo{
+  color:white;
+  border-left: 1px solid white;
+  padding-left: 15px;
+  margin-top:15px;
+  margin-right:15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carrito-navbar{
+  background: white;
+  border-radius: 200px;
+  padding:10px;
+  margin-right:10px;
+  margin-left:20px;
+}
+
+.contadorProductos{
+  background: red;
+  border-radius: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top:10px;
+  
+}
+
+
+
+/* TIENDA  */
+
+.tienda-container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mas{
+  background:#8CC63F;
+  width:30px;
+  height:30px;
+  padding:0;
+  margin:0;
+  text-align:center;
+  color:white;
+  cursor: pointer;
+}
+.menos{
+  background:#C1272D;
+  width:30px;
+  height:30px;
+  padding:0;
+  margin:0;
+  text-align:center;
+  color:white;
+  cursor: pointer;
+}
+
+.input_cantidad{
+  margin:0px;
+  padding:0px;
+  width:70px;
+  text-align:center;
+}
+
+.tabla{
+  margin:0px;
+  padding:0px;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.imagen{
+  border-radius:20px;
+  padding:0px;
+  margin-top:20%;
+  text-align:center;
+}
+
+.linea{
+  border: 2px solid #666666;
+  padding:0;
+}
+
+.borde{
+  border-radius:20px;
+  border:2px solid #666666;
+  padding:5px;
+}
+
+.borde p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenido h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight:700;
+  color:#C1272D;
+  text-align:center;
+  font-size:1.5rem;
+}
+
+.contenido p{
+  font-family: 'Poppins', sans-serif;
+  font-weight:500;
+}
+.categoria-p{
+  color:#B3B3B3;
+  font-size:1rem;
+  text-align:center;
+}
+
+.valor{
+  text-align:center;
+  margin-left:30%;
+  color:#8f8f8f;
+  font-weight:300;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Footer  */
+
+
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+
+.footer{
+  background:#182D3C;
+  width:100%;
+  padding:50px;
+  color:white;
+}
+
+.texto-footer{
+  padding-left:50px;
+}
+
+
+.texto-footer h2{
+  font-size:2rem;
+  font-weight:600;
+}
+
+.texto-footer p{
+  font-size:1.2rem;
+  font-weight:300;
+}
+
+.logo-footer{
+  border-right:4px solid white;
+}
+
+.float-button {
+  text-decoration: none;
+  position: fixed;
+  padding: 8px;
+  padding-right: 15px;
+  bottom: 30px;
+  right: 35px;
+  background-color: #50c65e;
+  color: #FFF;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 4px 6px 0px rgba(173, 173, 173, 1);
+  z-index: 100;
+  font-family: arial;
+  font-size: 18px;
+  animation: whatsapp-animation 0.5s ease-in-out;
+  transition: background-color 0.3s ease;
+}
+
+.float-button:hover {
+  background-color: #90d573;
+}
+
+.fa-whatsapp {
+  font-size: 20px !important;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+@keyframes whatsapp-animation {
+  from {opacity: 0%;}
+  to {opacity: 100%}
+}
+
+@media screen and (max-width: 544px) {
+  span {
+      display: none;
+  }
+  .float-button {
+      width: 35px;
+      border-radius: 10px;
+      height: 38px;
+  }
+  .fa-whatsapp {
+      font-size: 40px !important;
+  }
+}
+
+
+/* contacto  */
+
+.borde-form{
+  border-radius:20px;
+  border:2px solid #F2F2F2;
+}
+
+.inp{
+  background:#F2F2F2;
+}
+
+.btn-form {
+  background:#8CC63F;
+  border:1px solid white;
+}
+
+.contact-mensaje{
+  font-weight:700;
+  font-size:2.5rem;
+  text-align:center;
+  color:#8f8f8f;
+  margin-bottom:5%;
+} 
+
+/* Inicio */
+
+.foto {
+  width: 100%;
+  background-image: url("http://localhost:3000/img/inicio/manillas-en-bogota-y-medellin.webp"); /* The image used */
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagen-header{
+  background-image: url('http://localhost:3000/img/inicio/manillas-tyvek.webp');
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+
+.header h1{
+color:#F6AE2D;
+text-align: center;
+margin-top: 20%;
+font-size: 2.5rem;
+font-weight: bold;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header h2{
+color:#F6AE2D;
+text-align: left;
+font-size: 1.5rem;
+font-weight: 700;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header img {
+  border-radius: 40px;
+  filter: grayscale(100%);
+}
+
+.header img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.parrafo-header{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.mensaje-header{
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2rem;
+  padding: 20px 0px;
+  color: #616161;
+}
+
+.mensaje-header p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.header button{
+  background:#5f0f40;
+  border-radius: 10px;
+  border:none;
+  color:white;
+  padding: 10px 20px;
+}
+
+.header button:hover{
+  background:#F6AE2D;
+  border-radius: 10px;
+  border:none;
+  color:#616161;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+/* manillas tyvek */
+
+.tyvek-header h1 {
+  text-align: center;
+  color:#F6AE2D;
+  font-weight: bold;
+}
+
+.tyvek-header h2 {
+  text-align: center;
+  color:#616161
+
+}
+
+.tyvek-1 h2 {
+  text-align: left;
+  color:#F6AE2D;
+  font-weight: bold;
+}
+
+.tyvek-1 p {
+  text-align: justify;
+  
+}
+
+.tyvek-2 p {
+  text-align: justify;
+}
+
+.tyvek-2 h2 {
+  text-align: center;
+  color:#F6AE2D;
+  font-weight: bold;
+}
+
+.tyvek-button {
+  background:#5f0f40;
+  border-radius: 10px;
+  border:none;
+  color:white;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.tyvek-button:hover{
+  background:#F6AE2D;
+  border-radius: 10px;
+  border:none;
+  color:#616161;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+
