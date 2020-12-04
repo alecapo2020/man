@@ -1,15 +1,17 @@
 import React, { Fragment } from "react";
+import {
+  Link
+} from "react-router-dom";
 
 export const Inicio = () => {
   return (
     <Fragment>
       <div className="container">
        
-        <section className="header py-5">
+        <section className="header pb-5">
           <div className="row">
             <div className="col-md-6">
-              <h1>
-                Manillas de Seguridad para <br />
+              <h1>Manillas de Seguridad para <br/>
                 Identificación y Eventos
               </h1>
               
@@ -40,7 +42,7 @@ export const Inicio = () => {
         </section>
       </div>
 
-      <div className="foto"> </div>
+      <div className="parallax"> </div>
 
       <div className="container">
         <section>
@@ -65,11 +67,11 @@ export const Inicio = () => {
                 <strong>Manillas para eventos en bogota y medellin</strong> son
                 perfectas para eventos de corta duracion de hasta máximo 3 dias.
               </p>
-              <a href="manillas-tyvek">
+              <Link to="/productos/manillas-tyvek">
                 <button className="">
                   Ver Manillas Tyvek <i className="fas fa-align-justify"></i>
                 </button>
-              </a>
+              </Link>
             </div>
             <div className="col-md-4">
               <img
@@ -90,12 +92,12 @@ export const Inicio = () => {
                 manillas plasticas en Medellin, Bogota, Cali, Perira entre
                 Otras.{" "}
               </p>
-              <a href="manillas-plasticas">
+              <Link to="/productos/manillas-plasticas">
                 <button className="">
                   Ver Manillas Plasticas{" "}
                   <i className="fas fa-align-justify"></i>
                 </button>
-              </a>
+              </Link>
             </div>
             <div className="col-md-4">
               <img
@@ -115,12 +117,12 @@ export const Inicio = () => {
                 o patologías. Estas pueden ser en PVC plasticas, Madre e hijo o
                 Tyvek (papel)
               </p>
-              <a href="manillas-hospitalarias">
+              <Link to="/productos/manillas-hospitalarias">
                 <button className="">
                   Ver Manillas Hospitalarias{" "}
                   <i className="fas fa-align-justify"></i>
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -39,7 +39,20 @@ nav {
 }
 
 .navbar a:hover {
-  color: #29abe2;
+  color: white;
+  background:#29abe2;
+  border-radius: 20px;
+  
+} 
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+  cursor: pointer;
+}
+
+.dropdown{
+  cursor: pointer;
 }
 
 .navbar-toggler-icon {
@@ -87,7 +100,7 @@ nav {
 
 .carrito-navbar{
   background: white;
-  border-radius: 200px;
+  border-radius: 200px; 
   padding:10px;
   margin-right:10px;
   margin-left:20px;
@@ -328,7 +341,6 @@ nav {
 .header h1{
 color:#F6AE2D;
 text-align: center;
-margin-top: 20%;
 font-size: 2.5rem;
 font-weight: bold;
 font-family: 'Roboto Condensed', sans-serif;
@@ -355,7 +367,6 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .parrafo-header{
   text-align: justify;
-  text-justify: inter-word;
 }
 
 .mensaje-header{
@@ -557,4 +568,179 @@ text-align: center;
 .holograma-morado h2 {
   text-align:center;
   font-weight:bold;
+}
+
+/* tejidas */
+
+.tejidas-header h1 {
+  text-align: center;
+    color:#F6AE2D ;
+    font-weight: bold;
+  }
+
+  .tejidas-header p {
+    text-align:justify;
+    padding: 0px 10px;
+  }
+
+  .tejidas-body h2 {
+    text-align: center ;
+    color:#F6AE2D ; 
+    font-weight:bold ;
+  }
+
+  .tejidas-body p {
+    text-align:justify;
+    padding: 0px 10px;
+  }
+
+  .tejidas-2 h3 {
+    text-align:center;
+    color:white;
+    background-color:#F6AE2D;
+  }
+
+  .tejidas-2 p {
+    text-align:justify;
+    padding: 0px 10px;
+  }
+
+  .tejidos-bottom h2 {
+    text-align:center;
+    color:#F6AE2D;
+    background-color:#5f0f40;
+  }
+
+  .tejidos-bottom {
+    background:#5f0f40;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    padding: 10px 10px;
+    text-align: justify;
+  }
+
+  .tejidos-bottom-2 h2 {
+    text-align:center;
+    color:white;
+    background-color:#F6AE2D;
+  }
+
+  .tejidos-bottom-2 p {
+    text-align:justify;
+  }
+
+  .tejidos-bottom-2 h3 {
+    color:#F6AE2D
+  }
+
+  /* Manillas Sublimadas */
+
+  .sublimadas-encabezado h1 {
+    text-align:center;
+      color:#F6AE2D ;
+      font-weight: bold;
+    }
+
+    .sublimadas-header h2 {
+      text-align:center;
+      color:#F6AE2D ;
+    }
+
+    .sublimadas-header p {
+      text-align:justify;
+    }
+
+  .sublimadas-header h3 {
+    color:#F6AE2D
+  }
+
+.sublimadas-body h2 {
+  background-color:#5f0f40 ;
+  color:#F6AE2D ;
+  text-align: center;
+
+}
+
+.sublimadas-body p {
+  background-color:#5f0f40 ;
+  text-align: justify;
+  color:white;
+}
+
+.sublimadas-cuadro-1 {
+  background-color:#5f0f40;
+  color:white;
+  width: 80%;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.sublimadas-cuadro-1 p {
+  text-align:justify;
+  padding: 0px 10px;
+}
+
+.sublimadas-cuadro-1 h2 {
+  text-align:center;
+  font-weight:bold;
+  color:white;
+}
+
+.sublimadas-body-2 h2 {
+  background-color:#F6AE2D;
+  color:white;
+  text-align:center;
+}
+
+.sublimadas-body-2 p {
+  text-align:justify;
+}
+
+.sublimadas-body-2 h3 {
+  color:#F6AE2D;
+}
+
+/* Manillas Plastisol */
+
+.plastisol-encabezado h1 {
+  text-align:center;
+    color:#F6AE2D ;
+    font-weight: bold;
+  }
+
+.plasti-body h2 {
+  background-color:#F6AE2D;
+  color:white;
+  text-align:center;
+}
+
+.plasti-body p {
+  text-align:justify ;
+}
+
+.plasti-footer p {
+  text-align:justify ;
+
+}
+
+.plasti-footer h2 {
+  background-color:#F6AE2D ;
+  color:white ;
+  text-align:center ;
+}
+
+/* Efecto Parallax */
+.parallax { 
+  /* The image used */
+  background-image: url("https://www.manillasdecontrol.com/Resources/img/home/manillas-en-bogota-y-medellin.png");
+
+  /* Set a specific height */
+  height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const ManillasPlasticas = () => {
   return (
     <Fragment>
-      <div className="container">
+      <div className="container pb-5">
         <section className="plastic-header">
           <h1>Manillas plásticas</h1>
           <h2 className="my-5">

@@ -5,7 +5,7 @@ const Footer = () => {
     <Fragment>
       <a
         className="float-button"
-        href="https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/?lang=en"
+        href="https://wa.link/6u3pwj"
       >
         <i className="fa fa-whatsapp" aria-hidden="true"></i>
         <span>Escribenos...</span>

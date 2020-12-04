@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const ManillasTyvek = () => {
   return (
     <Fragment>
-      <div className="container">
+      <div className="container pb-5">
         <section className="tyvek-header">
           <h1>Manillas de Papel Tyvek</h1>
 

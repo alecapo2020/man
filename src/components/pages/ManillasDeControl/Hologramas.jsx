@@ -1,4 +1,4 @@
-import react, { Fragment } from "react";
+import React, { Fragment } from "react";
 
 const Hologramas = () => {
     return (
@@ -158,7 +158,7 @@ const Hologramas = () => {
 
                 <section>
                     <div className="row">
-                        <div className="col-md-4 holograma-fondo">
+                        <div className="col-md-4 p-3 holograma-fondo">
                             <h2>Hologramas personalizados</h2>
                             <p>Los <strong>hologramas</strong> pueden ser utilizados como vienen, ya que al deseprenderse siempre dejan una evidencia. Para lograr un mayor nivel de seguridad se pueden imprimir una numeración consecutiva o un código solicitado por el cliente, directamente sobre el holograma.</p>
                             
@@ -172,7 +172,7 @@ const Hologramas = () => {
                             />                              
                         </div>
 
-                        <div className="col-md-4 holograma-fondo">
+                        <div className="col-md-4 p-3 holograma-fondo">
                             <h2>Etiquetas personalizadas</h2>
                             <p>Las <strong>etiquetas adhesivas</strong> pueden personalizare con una impresora térmica o escribiendo sobre las mismas, también hay algunas etiquetas que pueden marcarse en impresoras comunes.</p>
 
@@ -194,7 +194,7 @@ const Hologramas = () => {
                             />
                         </div>
 
-                        <div className="col-md-6 holograma-morado">
+                        <div className="col-md-6 p-3 holograma-morado">
                             <h2>Seguridad y control</h2>
                             <p>En <strong>Manillas de Control</strong> contamos con toda una gama de productos para ayudarte a garantizar la seguriad de tu establecimiento y llevar un control de quién ingresa. Utiliza nuestros <strong>Hologramas y etiquetas</strong> para el control de inventarios, rotulado de información, validación de garantías entre otros y consulta nuestra línea de <strong>Manillas de identificación</strong> para complementar tu nivel de seguridad.</p>
                         </div>                     

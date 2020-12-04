@@ -53,7 +53,7 @@ const ManillasHospitalarias = () => {
                                 src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/manillas%20plasticas.jpg"
                                 alt="Manillas Hospitalarias"
                             />
-                            <h2>Manillas Hospitalarias ADULTO</h2>
+                            <h2>Manillas Hospitalarias para adulto</h2>
                             <p>Las <strong>Manillas de seguridad hospitalarias</strong> para ADULTOS son elaboradas en PVC de alta resistencias, cuentan con un broche de seguridad que una vez cerrado solo podrá ser removido cortando la manilla. Con nuestras <strong>Manillas de identificación hospitalaria</strong>, tienes las seguridad de que no habrá suplantaciones de identidad.</p>
                         </div>
 

@@ -15,6 +15,8 @@ import ManillasTyvek from "../components/pages/ManillasDeControl/ManillasTyvek";
 import ManillasPlasticas from "../components/pages/ManillasDeControl/ManillasPlasticas";
 import ManillasHospitalarias from "../components/pages/ManillasDeControl/ManillasHospitalarias";
 import ManillasTejidas from "../components/pages/ManillasDeControl/ManillasTejidas";
+import ManillasSublimadas from "../components/pages/ManillasDeControl/ManillasSublimadas";
+import ManillasPlastisol from "../components/pages/ManillasDeControl/ManillasPlastisol"
 import Hologramas from "../components/pages/ManillasDeControl/Hologramas";
 
 export const AppRouter = () => {
@@ -45,6 +47,12 @@ export const AppRouter = () => {
              <Route exact path="/productos/manillas-tejidas">
                 <ManillasTejidas />
              </Route>
+             <Route exact path="/productos/manillas-sublimadas">
+                <ManillasSublimadas />
+             </Route>
+             <Route exact path="/productos/manillas-plastisol">
+                <ManillasPlastisol />
+            </Route>
              <Route exact path="/productos/hologramas">
                 <Hologramas />
             </Route>

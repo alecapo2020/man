@@ -43,20 +43,20 @@ const ManillasTejidas = () => {
                    
                 </section>
 
-                <section className="tejidas-body-abajo">
-                    <div className="row">
+                <section>
+                    <div className="row tejidas-2">
                         <div className="col-md-4">
-                            <h2>Promoción de Marcas</h2>
+                            <h3>Promoción de Marcas</h3>
                             <p>Gracias al diseño de las <strong>Manillas tejidas</strong>, nos permiten convertirlo en un bonito accesorio para que nuestros clientes lleven siempre nuestra marca a todos lados.</p>
 
                         </div>
                         <div className="col-md-4">
-                            <h2>Campañas Políticas</h2>
+                            <h3>Campañas Políticas</h3>
                             <p>Qué mejor manera de generar una recordación en medio de una <strong>campañá política</strong>, que con una manilla elegante y estética para compartir con los electores.</p>
                             
                         </div>
                         <div className="col-md-4">
-                            <h2>Identificación de Asistentes</h2>
+                            <h3>Identificación de Asistentes</h3>
                             <p>Con las <strong>Manillas bordadas en tejido damasco</strong>, los asistentes a tus eventos estarán siempre identificados. Las innumerables posibilidades de diseños, permiten segmentar grupos entre Palcos, Zonas VIP, Staff, Prensa, Artistas, entre muchos otros.</p>
                             
                         </div>
@@ -91,20 +91,32 @@ const ManillasTejidas = () => {
 
                 <section>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 tejidos-bottom">
                             <img
                                 className="img-fluid"
                                 src="https://www.manillasdecontrol.com/Resources/img/tejidas/Cinchos-o-cierres-plasticos.jpg"
                                 alt="Manillas tejidas"
                             />
-
                             <h2>Cierres plásticos o cinchos de seguridad</h2>
-                            <p>Elaborados a partir de plástico PVC micro inyectado, sus dientes entrelazados permite que la manilla ingrese por un lado pero detiene su retorno. La única manera para remover este cierre es cortándolo o cortando la manilla</p>
+                            <p>Elaborados a partir de plástico PVC micro inyectado, sus dientes entrelazados permite que la manilla ingrese por un lado pero detiene su retorno. La única manera para remover este cierre es cortándolo o cortando la manilla.</p>
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6 tejidos-bottom-2">
                             <h2>Cierres plásticos</h2>
                             <p>Tenemos disponibles diferentes colores para que puedas personalizar y dar un toque diferenciador a tus manillas de identificación para eventos.</p>
+                            <br></br>
+                            <h3>Colores de los broches</h3>
+                            <ul>
+                                <li>Amarillo</li>
+                                <li>Azul</li>
+                                <li>Rojo</li>
+                                <li>Blanco</li>
+                                <li>Negro</li>
+                                <li>Verde</li>
+                            </ul>
+                            <h2>Seguridad de los broches</h2>
+                            <p><strong>Algunos tips de los broches:</strong></p>
+                            <p>Los broches plásticos cuentan con un alto nivel de seguridad ya que incorporan unos dientes entrelazados los cuales cuando una manilla en tela es pasada por ellos, impide el retorto enredandose en los broches haciendo imposible de remover. Para remover la manilla se deberá proceder a la destrucción del broche o a cortar la manilla.</p>
                         </div>
                     </div>
 
