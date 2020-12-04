@@ -444,4 +444,117 @@ font-family: 'Roboto Condensed', sans-serif;
   
 }
 
+/* manillas plasticas */
 
+.plastic-header h1 {
+  text-align: center;
+  color:#F6AE2D ;
+  font-weight: bold;
+}
+
+.plastic-header h2 {
+  text-align: center;
+  color:#616161;
+}
+
+.plastic-1 h2 {
+  text-align: center;
+  color:#F6AE2D;
+  font-weight:bold;
+  }
+
+.plastic-2 h2 {
+  text-align: center ;
+  color:#F6AE2D ; 
+  font-weight:bold ;
+}
+
+.plastic-2 p {
+  text-align:justify;
+}
+
+/* manillas hospitalarias */
+
+.hospital-body h2 {
+  text-align: center;
+  color:#616161;
+}
+
+.hospital-body p {
+  text-align:justify;
+}
+
+.hospitalarias-cuadro-1 {
+  background-color:#0071BC;
+  color:white;
+  width: 80%;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.hospitalarias-cuadro-1 p {
+  text-align:justify;
+  padding: 0px 10px;
+}
+
+.hospitalarias-cuadro-1 h2 {
+  text-align:center;
+  font-weight:bold;
+  color:white;
+}
+
+/* hologramas */
+
+.hologramas-header h1 {
+text-align: center;
+  color:#F6AE2D ;
+  font-weight: bold;
+}
+
+.hologramas-header h2 {
+  text-align: center ;
+  color:#F6AE2D ; 
+  font-weight:bold ;
+}
+
+.hologramas-header p {
+  text-align:justify;
+  padding: 0px 10px;
+}
+
+.hologramas-body h2 {
+  text-align: center ;
+  color:#F6AE2D ; 
+  font-weight:bold ;
+}
+
+.hologramas-body p {
+  text-align:justify;
+  padding: 0px 10px;
+}
+
+.holograma-fondo h2 {
+  text-align: center ;
+  color:white ; 
+  font-weight:bold ;
+  background-color:#F6AE2D
+}
+
+.holograma-fondo {
+  text-align:justify;
+  color:white;
+  padding: 0px 0px;
+  background-color:#F6AE2D
+}
+
+.holograma-morado {
+  text-align:justify;
+  color:white;
+  padding: 0px 0px;
+  background-color:#5f0f40
+}
+
+.holograma-morado h2 {
+  text-align:center;
+  font-weight:bold;
+}

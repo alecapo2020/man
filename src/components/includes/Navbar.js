@@ -55,13 +55,18 @@ const Navbar = () => {
  
               <li className="nav-item dropdown dropdown-navbar">
                 <div className="dropdown-toggle nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Manillas de Control
+                  Manillas
                 </div>
                 <div className="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
                   <Link className="dropdown-item" to="/productos/manillas-tyvek">Manillas Tyvek</Link>
                   <Link className="dropdown-item" to="/productos/manillas-plasticas">Manillas Plásticas</Link>
+                  <Link className="dropdown-item" to="/productos/manillas-hospitalarias">Manillas Hospitalarias</Link>
+                  <Link className="dropdown-item" to="/productos/manillas-tejidas">Manillas Tejidas</Link>
+                  <Link className="dropdown-item" to="/productos/hologramas">Hologramas</Link>
                 </div>
               </li>
+
+              
           
               <li className="nav-item">
                 <Link className="nav-link" to="/tienda">
