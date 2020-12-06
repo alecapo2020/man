@@ -53,16 +53,21 @@ nav {
 
 .dropdown{
   cursor: pointer;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  background-color:#102e3e;
 }
 
 .navbar-toggler-icon {
-  color: white;
+  color:#29abe2;
 }
 
 .contenedor-navbar {
   margin: 0% 10% 5% 10%;
   height: 100px;
-}
+ }
 
 .banner-navbar {
   background: #29abe2;
@@ -401,9 +406,11 @@ font-family: 'Roboto Condensed', sans-serif;
   
 }
 
-/* manillas tyvek */
+/* Manillas tyvek */
 
-.tyvek-header h1 {
+
+
+.tyvek-headerTMP h1 {
   text-align: center;
   color:#F6AE2D;
   font-weight: bold;
@@ -453,6 +460,12 @@ font-family: 'Roboto Condensed', sans-serif;
   padding: 10px 20px;
   text-align: center;
   
+}
+
+.TyvekTitulo {
+  text-align: center;
+  color:#F6AE2D;
+  font-weight: bold;
 }
 
 /* manillas plasticas */
@@ -642,9 +655,10 @@ text-align: center;
       font-weight: bold;
     }
 
-    .sublimadas-header h2 {
+    .sublimadas-header h1 {
       text-align:center;
       color:#F6AE2D ;
+      font-weight: bold;
     }
 
     .sublimadas-header p {
@@ -744,3 +758,4 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+

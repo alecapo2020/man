@@ -1,11 +1,16 @@
 import React, { Fragment } from "react";
+import CarouselTyvek from "../../includes/CarouselTyvek";
+import CarouselTyvek2 from "../../includes/CarouselTyvek2";
 
 const ManillasTyvek = () => {
+
+      
   return (
     <Fragment>
+
       <div className="container pb-5">
         <section className="tyvek-header">
-          <h1>Manillas de Papel Tyvek</h1>
+          <h1 className="TyvekTitulo"> Manillas de Papel Tyvek</h1>
 
           <h2 className="my-5">
             "Las manillas de identificación más confiables para cualquier
@@ -43,11 +48,11 @@ const ManillasTyvek = () => {
                 la segunda razón, pueden servirnos para la{" "}
                 <strong>identificación de grupos de personas</strong> (VIP,
                 platino, General, Prensa, Staff, Producción, etc), la tercera
-                razón, para hacer más llamativas las manillas para los usuarios
+                razón, para hacer más llamativas las manillas para los usuarios 
                 finales y que no siempre utilicen la misma.
               </p>
+              <p>Contamos con gran variedad de colores:</p>
               <ul>
-                <li>Contamos con gran variedad de colores:</li>
                 <li>Verde</li>
                 <li>Verde Neón</li>
                 <li>Verde Pasto</li>
@@ -65,27 +70,23 @@ const ManillasTyvek = () => {
             </div>
 
             <div className="col-md-6">
-              <img
-                className="img-fluid"
-                src="https://www.manillasdecontrol.com/Resources/img/manillastyvek/Manillas%20Tyvek%20Rojo%20Neon.jpg"
-                alt="Manillas Tyvek"
-              />
+              <CarouselTyvek/>
             </div>
           </div>
         </section>
-        <hr></hr>
-        <div className="text-center">
+        
+        <div className="text-center my-4">
         <button className="tyvek-button">Descarga el manual de uso <i className="fas fa-file-download" aria-hidden="true"></i> </button>
         
         </div>
 
-        <hr></hr>
+        
         <section>
           <div className="row">
             <div className="col-md-4 tyvek-2">
               <img
                 className="img-fluid"
-                src="https://www.manillasdecontrol.com/Resources/img/manillastyvek/Manillas%20de%20control%20tyvek.jpg"
+                src="/img/ManillasTyvek/Manillas1.webp"
                 alt="Manillas Tyvek"
               />
               <h2>Hoteles y Piscinas</h2>
@@ -102,7 +103,7 @@ const ManillasTyvek = () => {
             <div className="col-md-4 tyvek-2">
               <img
                 className="img-fluid"
-                src="https://www.manillasdecontrol.com/Resources/img/manillastyvek/Manillas%20Tyvek%20Eventos.jpg"
+                src="/img/ManillasTyvek/ManillasTyvekEventos2.webp"
                 alt="Manillas Tyvek"
               />
               <h2>Eventos y discotecas</h2>
@@ -118,7 +119,7 @@ const ManillasTyvek = () => {
             <div className="col-md-4 tyvek-2">
               <img
                 className="img-fluid"
-                src="https://www.manillasdecontrol.com/Resources/img/manillastyvek/Manillas%20Tyvek%20Parques%20Acuaticos.jpg"
+                src="/img/ManillasTyvek/ManillasTyvekParquesAcuaticos3.webp"
                 alt="Manillas Tyvek"
               />
               <h2>Parques recreativos</h2>
@@ -133,6 +134,12 @@ const ManillasTyvek = () => {
             </div>
           </div>
         </section>
+<section>
+
+
+  
+  
+</section>
 
         <section>
           <div className="row">
@@ -163,11 +170,9 @@ const ManillasTyvek = () => {
               </ul>
             </div>
             <div className="col-md-6 tyvek-2">
-              <img
-                className="img-fluid"
-                src="https://www.manillasdecontrol.com/Resources/img/manillastyvek/Manillas%20Tyvek%20Impresas.jpg"
-                alt="Manillas Tyvek"
-              />
+              
+            <CarouselTyvek2/>
+            
             </div>
           </div>
         </section>

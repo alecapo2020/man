@@ -14,35 +14,37 @@ const ManillasSublimadas = () => {
                             alt="Manillas Sublimadas"
                         />
 
-                        <h1>Manillas Sublimadas</h1>
+                        <br></br>
                     </div>
                 </div>
                 
-                <div className="row">
-                    <div className="col sublimadas-header">
-                        <h2>Manillas en tela</h2>
-                        <p>Las <strong>Manillas sublimadas</strong> son perfectas para identificar a las personas en tu evento de una manera diferente y auténtica, Campañas políticas, Eventos, Colegios, Lanzamientos de marca, entre otros. Su impresión en policromía de calidad fotográfica, permite hacer de la manilla un medio más de publicidad.</p>
-                        <br></br>
-                        <h3>Características</h3>
-                        <ul>
-                            <li>Cinta de Satín con impresión Full Color (4x0)</li>
-                            <li>Tamaño ajustable a la muñeca</li>
-                            <li>Duración aproximada de 1 mes</li>
-                            <li>Posibilidad de poner broche de seguridad</li>
-                        </ul>
-                    </div>
-                    <div className="col">
-                        <img
-                            className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/manillas%20sublimadas%20bogota.jpg"
-                            alt="Manillas Sublimadas"
-                            />
-                    </div>
-                </div>
-
-                <hr></hr>
                 <section>
-                    <div className="row">
+                    <div className="row mt-4">
+                        <div className="col sublimadas-header">
+                            <h1>Manillas sublimadas en tela</h1>
+                            <p>Las <strong>Manillas sublimadas</strong> son perfectas para identificar a las personas en tu evento de una manera diferente y auténtica, Campañas políticas, Eventos, Colegios, Lanzamientos de marca, entre otros. Su impresión en policromía de calidad fotográfica, permite hacer de la manilla un medio más de publicidad.</p>
+                            <br></br>
+                            <h3>Características</h3>
+                            <ul>
+                                <li>Cinta de Satín con impresión Full Color (4x0)</li>
+                                <li>Tamaño ajustable a la muñeca</li>
+                                <li>Duración aproximada de 1 mes</li>
+                                <li>Posibilidad de poner broche de seguridad</li>
+                            </ul>
+                        </div>
+                        <div className="col">
+                            <img
+                                className="img-fluid"
+                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/manillas%20sublimadas%20bogota.jpg"
+                                alt="Manillas Sublimadas"
+                                />
+                        </div>
+                    </div>
+
+                </section>
+              
+                <section>
+                    <div className="row mt-4">
                         <div className="col sublimadas-cuadro-1">
                             <img
                                 className="img-fluid"
@@ -78,9 +80,8 @@ const ManillasSublimadas = () => {
                         </div>
                     </div>
                 </section>
-                <hr></hr>
                 <section className="sublimadas-body-2">
-                    <div className="row">
+                    <div className="row mt-4">
                         <div className="col">
                             <h2>Cierres plásticos</h2>
                             <p>Este accesorio opcional es elaborado en PVC micro inyectado en un molde. Sus dientes entrelazados nos ayudan a que la manilla no se pueda salir una vez ingresada en el cierre. La única forma de quitar la manilla es destruyendola.</p>
@@ -106,7 +107,7 @@ const ManillasSublimadas = () => {
                             />
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mt-4">
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
