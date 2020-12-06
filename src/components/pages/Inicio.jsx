@@ -6,9 +6,9 @@ import {
 export const Inicio = () => {
   return (
     <Fragment>
-      <div className="container">
+      <div className="container manillastyvek">
        
-        <section className="header pb-5">
+       <section className="header pb-5">
           <div className="row">
             <div className="col-md-6">
               <h1>Manillas de Seguridad para <br/>
@@ -35,8 +35,15 @@ export const Inicio = () => {
                 nacional e internacional con cortos tiempos de entrega.
               </p>
             </div>
+            <div className="col-md-6">
+              <img
+                className="img-fluid"
+                src="/img/inicio/manillas-tyvek.webp"
+                alt="Manillas tyvek"
+              />
+            </div>
             
-            <div className="col-md-6 imagen-header"></div>
+            
           </div>
           <h3 className="mensaje-header">Manillas Más Seguras, Más Estéticas y Más Durables...</h3>
         </section>
@@ -49,7 +56,7 @@ export const Inicio = () => {
           <div className="row py-5 parrafo-header header">
             <div className="col-md-4">
               <img
-                className="img-fluid"
+                className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos1.webp"
                 alt="Manillas de Identificacion"
               />
@@ -68,14 +75,17 @@ export const Inicio = () => {
                 perfectas para eventos de corta duracion de hasta máximo 3 dias.
               </p>
               <Link to="/productos/manillas-tyvek">
-                <button className="">
-                  Ver Manillas Tyvek <i className="fas fa-align-justify"></i>
-                </button>
+                <div className="text-center">
+                  <button className="mb-3">
+                    Ver Manillas Tyvek <i className="fas fa-align-justify"></i>
+                  </button>
+                </div>
+                
               </Link>
             </div>
             <div className="col-md-4">
               <img
-                className="img-fluid"
+                className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos2.webp"
                 alt="Manillas para eventos bogota"
               />
@@ -93,15 +103,17 @@ export const Inicio = () => {
                 Otras.{" "}
               </p>
               <Link to="/productos/manillas-plasticas">
-                <button className="">
-                  Ver Manillas Plasticas{" "}
-                  <i className="fas fa-align-justify"></i>
-                </button>
-              </Link>
+                <div className="text-center">
+                    <button className="mb-3">
+                      Ver Manillas Plasticas
+                      <i className="fas fa-align-justify ml-2"></i>
+                    </button>
+                  </div>
+                </Link>
             </div>
             <div className="col-md-4">
               <img
-                className="img-fluid"
+                className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos3.webp"
                 alt="Manillas de seguridad Papel Tyvek"
               />
@@ -118,10 +130,12 @@ export const Inicio = () => {
                 Tyvek (papel)
               </p>
               <Link to="/productos/manillas-hospitalarias">
-                <button className="">
-                  Ver Manillas Hospitalarias{" "}
-                  <i className="fas fa-align-justify"></i>
-                </button>
+                <div className="text-center">
+                  <button className="mb-3">
+                    Ver Manillas Hospitalarias{" "}
+                    <i className="fas fa-align-justify"></i>
+                  </button>
+                </div>
               </Link>
             </div>
           </div>

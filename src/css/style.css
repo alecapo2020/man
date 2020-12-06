@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 * {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -19,6 +20,7 @@ nav {
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .navbar li {
@@ -123,8 +125,6 @@ nav {
   
 }
 
-
-
 /* TIENDA  */
 
 .tienda-container{
@@ -215,14 +215,7 @@ nav {
   font-family: 'Poppins', sans-serif;
 }
 
-
-
 /* Footer  */
-
-
-/* build your own custom Bootstrap theme:
-   https://themestr.app
-*/
 
 .footer{
   background:#182D3C;
@@ -234,7 +227,6 @@ nav {
 .texto-footer{
   padding-left:50px;
 }
-
 
 .texto-footer h2{
   font-size:2rem;
@@ -285,19 +277,7 @@ nav {
   to {opacity: 100%}
 }
 
-@media screen and (max-width: 544px) {
-  span {
-      display: none;
-  }
-  .float-button {
-      width: 35px;
-      border-radius: 10px;
-      height: 38px;
-  }
-  .fa-whatsapp {
-      font-size: 40px !important;
-  }
-}
+
 
 
 /* contacto  */
@@ -335,14 +315,6 @@ nav {
   background-size: cover;
 }
 
-.imagen-header{
-  background-image: url('http://localhost:3000/img/inicio/manillas-tyvek.webp');
-  height: 300px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain;
-}
-
 .header h1{
 color:#F6AE2D;
 text-align: center;
@@ -359,12 +331,12 @@ font-weight: 700;
 font-family: 'Roboto Condensed', sans-serif;
 }
 
-.header img {
+.nuevafoto {
   border-radius: 40px;
   filter: grayscale(100%);
 }
 
-.header img:hover {
+.nuevafoto:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   cursor: pointer;
@@ -408,12 +380,16 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /* Manillas tyvek */
 
-
-
 .tyvek-headerTMP h1 {
   text-align: center;
   color:#F6AE2D;
   font-weight: bold;
+}
+
+.tyvek-header h1 {
+  text-align: center;
+  color:#616161
+
 }
 
 .tyvek-header h2 {
@@ -477,6 +453,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .plastic-header h2 {
+  text-align: center;
+  color:#616161;
+}
+
+.plastic-header h3 {
   text-align: center;
   color:#616161;
 }
@@ -759,3 +740,98 @@ text-align: center;
   background-size: cover;
 }
 
+/* Carrito  */
+
+.carritocuerpo h1 {
+  text-align:left;
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.carritocuerpo h2 {
+  font-size:1.7rem;
+  font-weight:bold;
+}
+
+.carritocuerpo h3 {
+  text-align:left;
+  font-size:1.3rem;
+  font-weight:bold;
+}
+
+.carritocuerpo p {
+  text-align:justify;
+}
+
+.cuerpovalor {
+  font-weight:bold;
+  text-align:center;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.cuerpovalor p {
+  font-size:1.3rem;
+}
+
+.carritocuerpoeliminar {
+ width:100%;
+}
+
+.carritocuerpoeliminar p {
+  color:red;
+  float:right;
+  margin-right:5%;
+}
+
+.bordecarrito {
+  border-bottom:1px solid black;
+}
+
+.cuerpocantidad p {
+  font-weight:bold;
+  font-size:1.2rem;
+}
+
+.subtotal {
+  font-weight:bold;
+  float:right;
+  width:100%;
+}
+
+/* RESPONSIVE  */
+
+@media(max-width:600px) {
+  .logo-footer{
+    border-right:none ;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+  .texto-footer{
+    text-align:center;
+    margin-top:20px;
+  }
+  .container {
+      margin-top:100px;
+    }
+  .footer{
+   padding:20px;
+    }
+  .texto-footer{
+      padding-left:20px;
+      padding-bottom:40px;
+    }
+
+  span {
+      display: none;
+  }
+  .float-button {
+      width: 40px;
+      border-radius: 10px;
+      height: 43px;
+  }
+  .fa-whatsapp {
+      font-size: 25px !important;
+  }
+}

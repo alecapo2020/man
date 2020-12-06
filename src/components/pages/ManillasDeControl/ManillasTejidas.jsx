@@ -18,29 +18,22 @@ const ManillasTejidas = () => {
                     <p>Estas manillas son bordadas en un telar, el ancho de esta se puede personalizar para que sean más delgadas o gruesas, la medida estándar suele ser de 1.5cm de ancho x 30cm de largo.</p>
 
                 </section>
-
-                <hr></hr>
-
-                <section className="tejidas-body">
+                <section className="tejidas-body my-4">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-md-6">
                             <h2>El accesorio perfecto. Más estéticas, más seguras y más divertidas</h2>
                             <p>Las <strong>Manillas de tela o hilo</strong> son muy útiles para Campañas Políticas, Eventos Empresariales, Colegios, Universidades, Lanzamientos de Marc, Parques Recreacionales, eventos deportivos, conciertos, entre muchos otros. Estas pueden ser utilizadas como souvenir o incluso para <strong>controlar el acceso a un evento,</strong> complementándolas con cinchos o cierres de seguridad que evitan que la manilla pueda ser removida o transferida.</p>
 
                         </div>
 
-                        <div className="col">
+                        <div className="col-md-6">
                             <img
                                 className="img-fluid"
                                 src="https://www.manillasdecontrol.com/Resources/img/tejidas/Manillas-para-conciertos.jpg"
                                 alt="Manillas tejidas"
                             />
                         </div>
-                    </div>
-
-                    <hr></hr>                 
-
-                   
+                    </div>                   
                 </section>
 
                 <section>
@@ -86,14 +79,13 @@ const ManillasTejidas = () => {
                         </div>
                     </div>
 
-                    <hr></hr>
                 </section>
 
                 <section>
-                    <div className="row">
+                    <div className="row my-4">
                         <div className="col-md-6 tejidos-bottom">
                             <img
-                                className="img-fluid"
+                                className="img-fluid mt-5"
                                 src="https://www.manillasdecontrol.com/Resources/img/tejidas/Cinchos-o-cierres-plasticos.jpg"
                                 alt="Manillas tejidas"
                             />

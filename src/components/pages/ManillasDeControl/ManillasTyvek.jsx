@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import CarouselTyvek from "../../includes/CarouselTyvek";
 import CarouselTyvek2 from "../../includes/CarouselTyvek2";
 
+
 const ManillasTyvek = () => {
 
       
@@ -76,7 +77,11 @@ const ManillasTyvek = () => {
         </section>
         
         <div className="text-center my-4">
-        <button className="tyvek-button">Descarga el manual de uso <i className="fas fa-file-download" aria-hidden="true"></i> </button>
+        
+        <a href="/img/ManillasTyvek/Manillas-Tyvek.jpg">
+          <button className="tyvek-button">Descarga el manual de uso <i className="fas fa-file-download" aria-hidden="true"></i> </button>
+        </a>
+        
         
         </div>
 

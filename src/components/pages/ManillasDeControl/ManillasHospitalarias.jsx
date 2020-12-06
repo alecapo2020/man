@@ -3,17 +3,16 @@ import React, { Fragment } from 'react'
 const ManillasHospitalarias = () => {
     return (
         <Fragment>
-            <div className="container mb-5">
+            <div className="container mb-3">
                 <section className="hospital-header">
                     <img
-                        className="img-fluid"
+                        className="img-fluid my-3"
                         src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/banner%20manillas%20hospitalarias.jpg"
                         alt="Manillas Hospitalarias"
                     />
-                    <hr></hr>
 
                     <div className="row">
-                        <div className="col hospitalarias-cuadro-1">
+                        <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
                                 src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/manillas%20hospitalarias.jpg"
@@ -22,7 +21,7 @@ const ManillasHospitalarias = () => {
                             <h2>Seguridad</h2>
                             <p>Las <strong>Manillas Hospitalarias</strong> ayudan a la identificación de los pacientes previniendo suplantaciones de identidad, garantizando su seguridad.</p>
                         </div>
-                        <div className="col hospitalarias-cuadro-1">
+                        <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
                                 src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/Manillas%20recien%20nacidos.jpg"
@@ -32,7 +31,7 @@ const ManillasHospitalarias = () => {
                             <p>Puedes contar con las <strong>Manillas de identificación</strong> de pacientes. También tenemos <strong>Manillas Madre e Hijo</strong>, estas nunca se van a caer ni a borrar.</p>
 
                         </div>
-                        <div className="col hospitalarias-cuadro-1">
+                        <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
                                 src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/Manillas%20alergia%20covid.jpg"
@@ -44,8 +43,8 @@ const ManillasHospitalarias = () => {
 
                     </div>
                 </section>
-<hr></hr>
-                <section className="hospital-body">
+
+                <section className="hospital-body my-3">
                     <div className="row">
                         <div className="col hospitalarias-cuadro-1">
                             <img
@@ -66,8 +65,8 @@ const ManillasHospitalarias = () => {
                         </div>
 
                     </div>
-<hr></hr>
-                        <div className="row">
+
+                        <div className="row my-3">
                             <div className="col-md-6">
                                 <img
                                     className="img-fluid"
@@ -81,7 +80,6 @@ const ManillasHospitalarias = () => {
                             </div>                     
                         </div>
                 </section>
-<hr></hr>
 
                 <section className="hospital-footer">
 

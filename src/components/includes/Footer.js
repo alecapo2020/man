@@ -12,23 +12,27 @@ const Footer = () => {
       </a>
       <div className="container-fluid footer">
         <div className="row">
-          <div className="col-6 text-right logo-footer">
+          <div className="col-md-6 text-center logo-footer">
             <img
               src="https://www.manillasdecontrol.com/Resources/img/Logo-Manillas-de-control-acostado.png"
               className="img-fluid text-right"
               alt="Logo Manillas de Control"
             />
           </div>
-          <div className="col-6 texto-footer">
+          <div className="col-md-6 texto-footer">
             <h2>BPS SAS</h2>
             <p>
-              <i className="fas fa-home"></i> Bogota: 311 288 7686
+              
+              
+                <i className="fas fa-home"></i> Bogota: <a href="tel:3112887686"> 311 288 7686
+              </a>
+              
             </p>
             <p>
-              <i className="fas fa-building"></i> Medellin: 313 292 5094
+              <i className="fas fa-building"></i> Medellin: <a href="tel:3132925094"> 313 292 5094 </a>
             </p>
             <p>
-              <i className="fas fa-envelope"></i> ventas@manillasdecontrol.com
+              <i className="fas fa-envelope"></i> <a href="mailto:ventas@manillasdecontrol.com">ventas@manillasdecontrol.com</a>
             </p>
           </div>
         </div>

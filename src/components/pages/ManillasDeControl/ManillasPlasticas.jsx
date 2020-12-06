@@ -18,7 +18,7 @@ const ManillasPlasticas = () => {
         </section>
         <section>
 
-          <div className="row">
+          <div className="row my-3">
             <div className="col-md-6 plastic-1">
               <h2>Manillas de identificación</h2>
               <ul>
@@ -55,8 +55,7 @@ const ManillasPlasticas = () => {
             </div>
           </div>
         </section>
-        <hr></hr>
-
+       
         <section className="plastic-body">
           <div className="row">
             <div className="col-md-6">
@@ -85,7 +84,7 @@ const ManillasPlasticas = () => {
                 alt="Manillas Plásticas"
               />
             </div>
-            <div className="col-md-6 plastic-2">
+            <div className="col-md-6 my-3 plastic-2">
               <div className="row">
                 <h2>Las manillas plásticas sirven para:</h2>
                 <div className="col-md-6">
@@ -111,10 +110,8 @@ const ManillasPlasticas = () => {
           </div>
         </section>
 
-        <hr></hr>
-
         <section>
-          <div className="row">
+          <div className="row my-3">
             <div className="col">
               <img
                 className="img-fluid"

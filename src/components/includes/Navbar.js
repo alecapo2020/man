@@ -12,7 +12,7 @@ const Navbar = () => {
          <a href="/tienda"> <button  className="btn btn-warning">Ver Tienda</button></a>
       </div>
       <div className="contenedor-navbar">
-        <nav className="navbar navbar-expand-md">
+        <nav className="navbar navbar-expand-sm">
           <a href="/">
           <img
             className="img-fluid"
@@ -82,14 +82,16 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="carrito-navbar">
-            <i className="fas fa-shopping-cart fa-lg"></i>
+                <Link className="" to="/carrito">     
+                   <i className="fas fa-shopping-cart fa-lg"></i>
+                </Link>
             <div className="contadorProductos">
-              <p>1</p>
+              <p>0</p>
             </div>
           </div>
           
           <div className="carrito-completo">
-            <p>tu carrito esta vacio</p>
+            <p>Tu carrito esta vacio</p>
           </div>
         </nav>
       </div>

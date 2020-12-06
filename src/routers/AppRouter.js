@@ -18,6 +18,7 @@ import ManillasTejidas from "../components/pages/ManillasDeControl/ManillasTejid
 import ManillasSublimadas from "../components/pages/ManillasDeControl/ManillasSublimadas";
 import ManillasPlastisol from "../components/pages/ManillasDeControl/ManillasPlastisol"
 import Hologramas from "../components/pages/ManillasDeControl/Hologramas";
+import Carrito from "../components/pages/Carrito";
 
 export const AppRouter = () => {
     
@@ -34,6 +35,9 @@ export const AppRouter = () => {
              </Route>
              <Route exact path="/">
                 <Inicio />
+             </Route>
+             <Route exact path="/carrito">
+                <Carrito/>
              </Route>
              <Route exact path="/productos/manillas-tyvek">
                 <ManillasTyvek />
