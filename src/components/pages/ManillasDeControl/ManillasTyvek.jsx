@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import CarouselTyvek from "../../includes/CarouselTyvek";
 import CarouselTyvek2 from "../../includes/CarouselTyvek2";
-
+// import '../../../css/style.css';
 
 const ManillasTyvek = () => {
 

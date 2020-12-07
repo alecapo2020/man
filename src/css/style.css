@@ -44,7 +44,6 @@ nav {
   color: white;
   background:#29abe2;
   border-radius: 20px;
-  
 } 
 
 .dropdown:hover .dropdown-menu {
@@ -97,6 +96,7 @@ nav {
 }
 
 .carrito-completo{
+  
   color:white;
   border-left: 1px solid white;
   padding-left: 15px;
@@ -111,6 +111,12 @@ nav {
   padding:10px;
   margin-right:10px;
   margin-left:20px;
+  position: relative;
+}
+
+.carrito-navbar a:hover{
+  background: white;
+ 
 }
 
 .contadorProductos{
@@ -121,8 +127,7 @@ nav {
   position: absolute;
   width: 20px;
   height: 20px;
-  top:10px;
-  
+  top:-10px;
 }
 
 /* TIENDA  */
@@ -833,5 +838,8 @@ text-align: center;
   }
   .fa-whatsapp {
       font-size: 25px !important;
+  }
+  .carrito-completo{
+    display: none;
   }
 }

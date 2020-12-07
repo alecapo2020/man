@@ -29,7 +29,7 @@ const Navbar = () => {
             aria-label="Toggle navigation"
             aria-expanded="false"
           >
-            <a href="/"><i className="fab fa-whatsapp fa-lg"></i></a>
+  
           </button>
           
           <button
@@ -90,9 +90,7 @@ const Navbar = () => {
             </div>
           </div>
           
-          <div className="carrito-completo">
-            <p>Tu carrito esta vacio</p>
-          </div>
+         
         </nav>
       </div>
     </Fragment>
