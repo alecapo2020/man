@@ -88,7 +88,7 @@ const Carrito = () => {
                 </div>
 
                 <div className="row subtotal mr-2">
-                    <p>Subtotal: $ 120.000</p>
+                    <p>Subtotal: $ 220.000</p>
                 </div>
 
                         
