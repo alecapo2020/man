@@ -839,6 +839,32 @@ text-align: center;
   cursor: pointer;
 }
 
+.textomenumanillas h1 {
+  color:#F6AE2D;
+  font-weight:bold;
+  text-align:center;
+}
+
+.parrafomenumanillas {
+  color:black;
+  text-align:center;
+  font-size:1.5rem;
+}
+
+.botoncotizacion {
+  background:#F7931e;
+  color:white;
+  border-radius:10px;
+  border:none;
+  width:20%;
+  padding:8px;
+
+}
+
+.botoncotizacion:hover {
+  background:#dd821b;
+}
+
 /* RESPONSIVE  */
 
 @media(max-width:600px) {
