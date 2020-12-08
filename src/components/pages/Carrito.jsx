@@ -1,6 +1,26 @@
 import React, { Fragment } from "react";
 
 const Carrito = () => {
+  
+ 
+  let value = function () {
+    const selector = document.getElementById('value');
+    const selector1 = document.getElementById('flexRadioDefault1').checked;
+    if(selector1 === true){
+        selector.innerHTML = 12000
+        let valor = selector.innerHTML
+        total(valor)
+    } else if (selector1 === false){
+      let vacio = selector.innerHTML = ""
+      total(vacio)
+    }
+  }
+
+  const total =  (envio) => {
+    const selector = document.getElementById('total');
+    selector.innerHTML = `${envio}`;
+  }
+
   return (
     <Fragment>
       <div className="container pb-5">
@@ -39,26 +59,25 @@ const Carrito = () => {
                     </div>
 
                     <div className="row">
-                      <div class="form-check ml-3">
+                      <div className="form-check ml-3">
                         <input
-                          class="form-check-input"
+                          className="form-check-input"
                           type="radio"
-                          name="SelectorImpresion1"
-                          id="flexRadioDefault1"
+                          name="impresion1"
+                          id="impresion1"
                         />
-                        <label class="form-check-label" for="flexRadioDefault1">
+                        <label className="form-check-label" htmlFor="impresion1">
                           Con impresión
                         </label>
                       </div>
-                      <div class="form-check ml-1">
+                      <div className="form-check ml-1">
                         <input
-                          class="form-check-input"
+                          className="form-check-input"
                           type="radio"
-                          name="SelectorImpresion1"
-                          id="flexRadioDefault2"
-                          checked
+                          name="impresion1"
+                          id="impresion2"
                         />
-                        <label class="form-check-label" for="flexRadioDefault2">
+                        <label className="form-check-label" htmlFor="impresion2">
                           Sin impresión
                         </label>
                       </div>
@@ -95,39 +114,44 @@ const Carrito = () => {
               <hr></hr>
               <div className="row ml-1">
                 <p>Envio:</p>
-                <div class="form-check ml-1">
+                <div className="form-check ml-1">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
+                    onClick={ ()=>{ value();  } }
+                    value={true}
+                    
                   />
-                  <label class="form-check-label" for="flexRadioDefault1">
+                  <label className="form-check-label" htmlFor="flexRadioDefault1">
                     Si
                   </label>
                 </div>
-                <div class="form-check ml-2">
+                <div className="form-check ml-2">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault2"
-                    checked
+                    onClick={ ()=>{ value();  } }
+                    value={false}
+                    defaultChecked
                   />
-                  <label class="form-check-label" for="flexRadioDefault2">
+                  <label className="form-check-label" htmlFor="flexRadioDefault2">
                     No
                   </label>
                 </div>
               </div>
 
-              <div className="row ml-1">
-                <p>Valor: 12.000</p>
+              <div className="row ml-1" id="value">
+               
               </div>
               <hr></hr>
               <div className="row ml-2">
                 <p>
-                  Total: <strong>232.000</strong>
-                </p>
+                  Total: 
+                </p><div id="total"></div>
               </div>
                 <div className="text-center">
                   <button className="botoncarrito" type="submit">
