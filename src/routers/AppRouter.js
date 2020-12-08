@@ -22,6 +22,8 @@ import Hologramas from "../components/pages/ManillasDeControl/Hologramas";
 import Carrito from "../components/pages/Carrito";
 import ProcesarCompra from "../components/pages/ProcesarCompra";
 import Error404 from "../components/pages/Error404";
+import Cotizacion from "../components/pages/Cotizacion";
+
 
 export const AppRouter = () => {
     
@@ -72,6 +74,10 @@ export const AppRouter = () => {
             <Route exact path="/404">
                <Error404 />
             </Route>
+            <Route exact path="/Cotizacion">
+               <Cotizacion />
+            </Route>
+
             <Redirect to="/404"></Redirect>
             </Switch>
             <Footer/>

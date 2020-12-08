@@ -1,9 +1,22 @@
 import React, { Fragment } from "react";
+import {
+    Link
+} from "react-router-dom";
 
 const ManillasMenu = () => {
   return (
     <Fragment>
+        <form>
+            
+    
       <div className="container">
+        <div className="textomenumanillas">
+          <h1>Manillas para eventos</h1>
+          <p className="parrafomenumanillas">
+            Encuentra la manilla ideal para tu negocio!
+          </p>
+        </div>
+
         <div className="row">
           <div className="col-md-4">
             <img
@@ -59,7 +72,29 @@ const ManillasMenu = () => {
             />
           </div>
         </div>
+        <div className="text-center">
+          <p className="parrafomenumanillas">
+            Necesitas una cotización formal?
+          </p>
+        </div>
+        
+
+        <div className="text-center py-4">
+            <Link to="/cotizacion">
+                <div className="text-center">
+                    <button className="botoncotizacion" type="submit">
+                        Solicitar cotización
+                    </button>
+                </div>
+            </Link>
+ 
+        </div>
+
+    
+        
+        
       </div>
+      </form>
     </Fragment>
   );
 };
