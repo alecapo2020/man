@@ -140,6 +140,7 @@ export const Inicio = () => {
             </div>
           </div>
         </section>
+        
       </div>
     </Fragment>
   );

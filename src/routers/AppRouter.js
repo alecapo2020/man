@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 
 import Navbar from "../components/includes/Navbar";
@@ -10,6 +11,7 @@ import Footer from "../components/includes/Footer";
 import { Contacto } from "../components/pages/Contacto";
 import { Inicio } from "../components/pages/Inicio";
 import Tienda from "../components/pages/Tienda";
+import ManillasMenu from "../components/pages/ManillasMenu";
 import ManillasTyvek from "../components/pages/ManillasDeControl/ManillasTyvek";
 import ManillasPlasticas from "../components/pages/ManillasDeControl/ManillasPlasticas";
 import ManillasHospitalarias from "../components/pages/ManillasDeControl/ManillasHospitalarias";
@@ -19,6 +21,7 @@ import ManillasPlastisol from "../components/pages/ManillasDeControl/ManillasPla
 import Hologramas from "../components/pages/ManillasDeControl/Hologramas";
 import Carrito from "../components/pages/Carrito";
 import ProcesarCompra from "../components/pages/ProcesarCompra";
+import Error404 from "../components/pages/Error404";
 
 export const AppRouter = () => {
     
@@ -63,6 +66,13 @@ export const AppRouter = () => {
              <Route exact path="/productos/hologramas">
                 <Hologramas />
             </Route>
+            <Route exact path="/ManillasMenu">
+               <ManillasMenu />
+            </Route>
+            <Route exact path="/404">
+               <Error404 />
+            </Route>
+            <Redirect to="/404"></Redirect>
             </Switch>
             <Footer/>
           </Fragment>
