@@ -793,6 +793,11 @@ text-align: center;
   border-bottom:1px solid black;
 }
 
+.bordecarrito2 p {
+  text-align:center;
+  font-weight:bold
+}
+
 .cuerpocantidad p {
   font-weight:bold;
   font-size:1.2rem;
@@ -802,6 +807,13 @@ text-align: center;
   font-weight:bold;
   width:100%;
   text-align:right;
+}
+
+.botones {
+  font-weight:bold;
+  text-align:left;
+  color:white;
+  background-color:#F6AE2D;
 }
 
 /* RESPONSIVE  */

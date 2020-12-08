@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
 } from "react-router-dom";
 
 import Navbar from "../components/includes/Navbar";
@@ -19,6 +18,7 @@ import ManillasSublimadas from "../components/pages/ManillasDeControl/ManillasSu
 import ManillasPlastisol from "../components/pages/ManillasDeControl/ManillasPlastisol"
 import Hologramas from "../components/pages/ManillasDeControl/Hologramas";
 import Carrito from "../components/pages/Carrito";
+import ProcesarCompra from "../components/pages/ProcesarCompra";
 
 export const AppRouter = () => {
     
@@ -39,6 +39,9 @@ export const AppRouter = () => {
              <Route exact path="/carrito">
                 <Carrito/>
              </Route>
+             <Route exact path="/ProcesarCompra">
+                <ProcesarCompra />
+            </Route>
              <Route exact path="/productos/manillas-tyvek">
                 <ManillasTyvek />
              </Route>
@@ -60,7 +63,6 @@ export const AppRouter = () => {
              <Route exact path="/productos/hologramas">
                 <Hologramas />
             </Route>
-             <Redirect to="/" />
             </Switch>
             <Footer/>
           </Fragment>
