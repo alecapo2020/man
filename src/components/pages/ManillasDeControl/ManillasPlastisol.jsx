@@ -37,7 +37,7 @@ const ManillasPlastisol = () => {
                         <div className="col">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/plastisol/Manillas%20alto%20y%20bajo%20relieve%20en%20plastisol.jpg"
+                                src="/img/Plastisol/ManillasAltoyBajoRelieve.webp"
                                 alt="Plastisol"
                                 />
                         </div>
@@ -49,28 +49,28 @@ const ManillasPlastisol = () => {
                     <div className="col">
                         <img
                             className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/plastisol/manllas%20plastisol%20doble%20broche%201.jpg"
+                            src="/img/Plastisol/1.webp"
                             alt="Plastisol"
                             />
                     </div>
                     <div className="col">
                         <img
                             className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/plastisol/manllas%20plastisol%20doble%20broche%202.jpg"
+                            src="/img/Plastisol/2.webp"
                             alt="Plastisol"
                             />
                     </div>
                     <div className="col">
                         <img
                             className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/plastisol/manllas%20plastisol%20doble%20broche%203.jpg"
+                            src="/img/Plastisol/3.webp"
                             alt="Plastisol"
                             />
                     </div>
                     <div className="col">
                         <img
                             className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/plastisol/manllas%20plastisol%20doble%20broche%204.jpg"
+                            src="/img/Plastisol/4.webp"
                             alt="Plastisol"
                             />
                     </div>
@@ -87,7 +87,7 @@ const ManillasPlastisol = () => {
                         <div className="col">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/plastisol/Llaveros%20en%20plastisol.jpg"
+                                src="/img/Plastisol/LlaveroPlastisol.webp"
                                 alt="Plastisol"
                                 />
                         </div>
@@ -97,21 +97,21 @@ const ManillasPlastisol = () => {
                         <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/plastisol/llaveros%20en%20plastisol%20alto%20relieve%201.jpg"
+                                src="/img/Plastisol/1b.webp"
                                 alt="Plastisol"
                                 />
                         </div>
                         <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/plastisol/llaveros%20en%20plastisol%20alto%20relieve%202.jpg"
+                                src="/img/Plastisol/2b.webp"
                                 alt="Plastisol"
                                 />
                         </div>
                         <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/plastisol/llaveros%20en%20plastisol%20alto%20relieve%203.jpg"
+                                src="/img/Plastisol/3b.webp"
                                 alt="Plastisol"
                                 />
                         </div>

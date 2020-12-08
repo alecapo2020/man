@@ -7,7 +7,7 @@ const ManillasTejidas = () => {
                 <section className="tejidas-header">
                     <img
                         className="img-fluid"
-                        src="https://www.manillasdecontrol.com/Resources/img/tejidas/banner%20manillas%20tejidas.jpg"
+                        src="/img/Tejidas/ManillasTejidasBanner.webp"
                         alt="Manillas tejidas"
                     />
 
@@ -29,7 +29,7 @@ const ManillasTejidas = () => {
                         <div className="col-md-6">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/tejidas/Manillas-para-conciertos.jpg"
+                                src="/img/Tejidas/ManillasParaConciertos.webp"
                                 alt="Manillas tejidas"
                             />
                         </div>
@@ -59,21 +59,21 @@ const ManillasTejidas = () => {
                     <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/tejidas/1.jpg"
+                                src="/img/Tejidas/1.webp"
                                 alt="Manillas tejidas"
                             />
                         </div>
                         <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/tejidas/2.jpg"
+                                src="/img/Tejidas/2.webp"
                                 alt="Manillas tejidas"
                             />
                         </div>
                         <div className="col-md-4">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/tejidas/3.jpg"
+                                src="/img/Tejidas/3.webp"
                                 alt="Manillas tejidas"
                             />
                         </div>
@@ -86,7 +86,7 @@ const ManillasTejidas = () => {
                         <div className="col-md-6 tejidos-bottom">
                             <img
                                 className="img-fluid mt-5"
-                                src="https://www.manillasdecontrol.com/Resources/img/tejidas/Cinchos-o-cierres-plasticos.jpg"
+                                src="/img/Tejidas/CierresPlasticos.webp"
                                 alt="Manillas tejidas"
                             />
                             <h2>Cierres plásticos o cinchos de seguridad</h2>

@@ -4,11 +4,8 @@ import CarouselTyvek2 from "../../includes/CarouselTyvek2";
 // import '../../../css/style.css';
 
 const ManillasTyvek = () => {
-
-      
   return (
     <Fragment>
-
       <div className="container pb-5">
         <section className="tyvek-header">
           <h1 className="TyvekTitulo"> Manillas de Papel Tyvek</h1>
@@ -49,7 +46,7 @@ const ManillasTyvek = () => {
                 la segunda razón, pueden servirnos para la{" "}
                 <strong>identificación de grupos de personas</strong> (VIP,
                 platino, General, Prensa, Staff, Producción, etc), la tercera
-                razón, para hacer más llamativas las manillas para los usuarios 
+                razón, para hacer más llamativas las manillas para los usuarios
                 finales y que no siempre utilicen la misma.
               </p>
               <p>Contamos con gran variedad de colores:</p>
@@ -66,26 +63,23 @@ const ManillasTyvek = () => {
                 <li>Naranja</li>
                 <li>Coral</li>
               </ul>
-
-             
             </div>
 
             <div className="col-md-6">
-              <CarouselTyvek/>
+              <CarouselTyvek />
             </div>
           </div>
         </section>
-        
+
         <div className="text-center my-4">
-        
-        <a href="/img/ManillasTyvek/Manillas-Tyvek.jpg">
-          <button className="tyvek-button">Descarga el manual de uso <i className="fas fa-file-download" aria-hidden="true"></i> </button>
-        </a>
-        
-        
+          <a href="/img/ManillasTyvek/Manillas-Tyvek.jpg">
+            <button className="tyvek-button">
+              Descarga el manual de uso{" "}
+              <i className="fas fa-file-download" aria-hidden="true"></i>{" "}
+            </button>
+          </a>
         </div>
 
-        
         <section>
           <div className="row">
             <div className="col-md-4 tyvek-2">
@@ -139,12 +133,7 @@ const ManillasTyvek = () => {
             </div>
           </div>
         </section>
-<section>
-
-
-  
-  
-</section>
+        <section></section>
 
         <section>
           <div className="row">
@@ -175,9 +164,7 @@ const ManillasTyvek = () => {
               </ul>
             </div>
             <div className="col-md-6 tyvek-2">
-              
-            <CarouselTyvek2/>
-            
+              <CarouselTyvek2 />
             </div>
           </div>
         </section>

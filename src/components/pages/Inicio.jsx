@@ -45,7 +45,7 @@ export const Inicio = () => {
             
             
           </div>
-          <h3 className="mensaje-header">Manillas Más Seguras, Más Estéticas y Más Durables...</h3>
+          <h3 className="mensaje-header">Manillas más seguras, más estéticas y más durables...</h3>
         </section>
       </div>
 

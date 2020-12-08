@@ -10,7 +10,7 @@ const ManillasSublimadas = () => {
                     <div className="col sublimadas-encabezado">
                         <img
                             className="img-fluid"
-                            src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/banner%20manillas%20sublimadas.JPG"
+                            src="/img/Sublimadas/ManillasSublimadasBanner.webp"
                             alt="Manillas Sublimadas"
                         />
 
@@ -35,7 +35,7 @@ const ManillasSublimadas = () => {
                         <div className="col">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/manillas%20sublimadas%20bogota.jpg"
+                                src="/img/Sublimadas/ManillasSublimadasBogota.webp"
                                 alt="Manillas Sublimadas"
                                 />
                         </div>
@@ -48,7 +48,7 @@ const ManillasSublimadas = () => {
                         <div className="col sublimadas-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/Manillas%20de%20colores%20bogota.jpg"
+                                src="/img/Sublimadas/1.webp"
                                 alt="Manillas Sublimadas"
                             />
                             <h2>Calidad</h2>
@@ -57,7 +57,7 @@ const ManillasSublimadas = () => {
                         <div className="col sublimadas-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/manillas%20promocionales%20en%20bogota.jpg"
+                                src="/img/Sublimadas/2.webp"
                                 alt="Manillas Sublimadas"
                             />
                             <h2>Impresión</h2>
@@ -66,7 +66,7 @@ const ManillasSublimadas = () => {
                         <div className="col sublimadas-cuadro-1">
                             <img    
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/fabrica%20manillas%20en%20bogota.jpg"
+                                src="/img/Sublimadas/3.webp"
                                 alt="Manillas Sublimadas"
                             />
                             <h2>Versatilidad</h2>
@@ -102,7 +102,7 @@ const ManillasSublimadas = () => {
                         <div className="col">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/cierres%20o%20cinchos%20plasticos.jpg"
+                                src="/img/Sublimadas/SublimadasCierres.webp"
                                 alt="Manillas Sublimadas"
                             />
                         </div>
@@ -111,28 +111,28 @@ const ManillasSublimadas = () => {
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/Broches%20plasticos%201.jpg"
+                                src="/img/Sublimadas/1b.webp"
                                 alt="Manillas Sublimadas"
                                 />
                         </div>
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/Broches%20plasticos%202.jpg"
+                                src="/img/Sublimadas/2b.webp"
                                 alt="Manillas Sublimadas"
                                 />
                         </div>
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/Broches%20plasticos%203.jpg"
+                                src="/img/Sublimadas/3b.webp"
                                 alt="Manillas Sublimadas"
                                 />
                         </div>
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/Sublimadas/Broches%20plasticos%204.jpg"
+                                src="/img/Sublimadas/4b.webp"
                                 alt="Manillas Sublimadas"
                                 />
                         </div>

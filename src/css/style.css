@@ -731,9 +731,10 @@ text-align: center;
 }
 
 /* Efecto Parallax */
+
 .parallax { 
   /* The image used */
-  background-image: url("https://www.manillasdecontrol.com/Resources/img/home/manillas-en-bogota-y-medellin.png");
+  background-image: url("http://localhost:3000/img/inicio/fondo.webp");
 
   /* Set a specific height */
   height: 400px; 
@@ -762,10 +763,6 @@ text-align: center;
   text-align:left;
   font-size:1.3rem;
   font-weight:bold;
-}
-
-.carritocuerpo p {
-  text-align:justify;
 }
 
 .cuerpovalor {
@@ -809,11 +806,24 @@ text-align: center;
   text-align:right;
 }
 
-.botones {
-  font-weight:bold;
+.alerta {
+  color:#616161;
+  background-color:#fffed9;
   text-align:left;
+}
+
+.botoncarrito {
+  background:#F7931e;
   color:white;
-  background-color:#F6AE2D;
+  border-radius:10px;
+  border:none;
+  width:70%;
+  padding:8px;
+
+}
+
+.botoncarrito:hover {
+  background:#dd821b;
 }
 
 /* RESPONSIVE  */

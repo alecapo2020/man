@@ -7,16 +7,16 @@ const ManillasHospitalarias = () => {
                 <section className="hospital-header">
                     <img
                         className="img-fluid my-3"
-                        src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/banner%20manillas%20hospitalarias.jpg"
-                        alt="Manillas Hospitalarias"
+                        src="/img/ManillasHospitalarias/BannerManillasHospitalarias.webp"
+                        alt="Banner de entrada a la pagina de Manillas Hospitalarias"
                     />
 
                     <div className="row">
                         <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/manillas%20hospitalarias.jpg"
-                                alt="Manillas Hospitalarias"
+                                src="/img/ManillasHospitalarias/SeguridadManillasHospitalarias.webp"
+                                alt="Manillas Hospitalarias seguridad"
                             />
                             <h2>Seguridad</h2>
                             <p>Las <strong>Manillas Hospitalarias</strong> ayudan a la identificación de los pacientes previniendo suplantaciones de identidad, garantizando su seguridad.</p>
@@ -24,8 +24,8 @@ const ManillasHospitalarias = () => {
                         <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/Manillas%20recien%20nacidos.jpg"
-                                alt="Manillas Hospitalarias"
+                                src="/img/ManillasHospitalarias/ConfianzaManillasHospitalarias.webp"
+                                alt="Manillas Hospitalarias confianza"
                             />
                             <h2>Confianza</h2>
                             <p>Puedes contar con las <strong>Manillas de identificación</strong> de pacientes. También tenemos <strong>Manillas Madre e Hijo</strong>, estas nunca se van a caer ni a borrar.</p>
@@ -34,8 +34,8 @@ const ManillasHospitalarias = () => {
                         <div className="col-md hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/Manillas%20alergia%20covid.jpg"
-                                alt="Manillas hospitalarias"
+                                src="/img/ManillasHospitalarias/TranquilidadManillasHospitalarias.webp"
+                                alt="Manillas hospitalarias tranquilidad"
                             />
                             <h2>Tranquilidad</h2>
                             <p>Sobre las <strong>Manillas de identificación</strong> puedes escribir tipos de riesgos e información adicional para el tratamiento de cada paciente como: riesgo de caída, alergias, régimen de alimentación, entre otros.</p>
@@ -49,7 +49,7 @@ const ManillasHospitalarias = () => {
                         <div className="col hospitalarias-cuadro-1">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/manillas%20plasticas.jpg"
+                                src="/img/ManillasHospitalarias/AdultosManillasHospitalarias.webp"
                                 alt="Manillas Hospitalarias"
                             />
                             <h2>Manillas Hospitalarias para adulto</h2>
@@ -70,7 +70,7 @@ const ManillasHospitalarias = () => {
                             <div className="col-md-6">
                                 <img
                                     className="img-fluid"
-                                    src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/varias.jpg"
+                                    src="/img/ManillasHospitalarias/PersonalizacionManillasHospitalarias.webp"
                                     alt="Manillas Hospitalarias"
                                 />
                             </div> 
@@ -88,28 +88,28 @@ const ManillasHospitalarias = () => {
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/1.jpg"
+                                src="/img/ManillasHospitalarias/1.webp"
                                 alt="Manillas Hospitalarias"
                             />
                         </div>
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/2.jpg"
+                                src="/img/ManillasHospitalarias/2.webp"
                                 alt="Manillas Hospitalarias"
                             />
                         </div>
                         <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/3.jpg"
+                                src="/img/ManillasHospitalarias/3.webp"
                                 alt="Manillas Hospitalarias"
                             />
                         </div>
                          <div className="col-md-3">
                             <img
                                 className="img-fluid"
-                                src="https://www.manillasdecontrol.com/Resources/img/hospitalarias/4.jpg"
+                                src="/img/ManillasHospitalarias/4.webp"
                                 alt="Manillas Hospitalarias"
                             />
                         </div>
