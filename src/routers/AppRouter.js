@@ -68,13 +68,13 @@ export const AppRouter = () => {
              <Route exact path="/productos/hologramas">
                 <Hologramas />
             </Route>
-            <Route exact path="/ManillasMenu">
+            <Route exact path="/manillas">
                <ManillasMenu />
             </Route>
             <Route exact path="/404">
                <Error404 />
             </Route>
-            <Route exact path="/Cotizacion">
+            <Route exact path="/cotizacion">
                <Cotizacion />
             </Route>
 
