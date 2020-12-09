@@ -39,7 +39,7 @@ export const Inicio = () => {
               <img
                 className="img-fluid"
                 src="/img/inicio/manillas-tyvek.webp"
-                alt="Manillas tyvek"
+                alt="Muestra de Manillas tyvek en colores rojo, verde, azul y amarillo"
               />
             </div>
             
@@ -58,7 +58,7 @@ export const Inicio = () => {
               <img
                 className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos1.webp"
-                alt="Manillas de Identificacion"
+                alt="Muestra del uso de Manillas de Identificacion para el empleo en eventos culturales"
               />
               <br />
               <br />
@@ -87,7 +87,7 @@ export const Inicio = () => {
               <img
                 className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos2.webp"
-                alt="Manillas para eventos bogota"
+                alt="Mustra del empleo de las manillas plasticas en ambientes recreativos, hombre con hijo en piscina"
               />
               <br />
               <br />
@@ -115,7 +115,7 @@ export const Inicio = () => {
               <img
                 className="img-fluid nuevafoto"
                 src="img/inicio/Manillasparaeventos3.webp"
-                alt="Manillas de seguridad Papel Tyvek"
+                alt="Muestra del uso de Manillas de seguridad Papel Tyvek en ambientes hospitalarios"
               />
               <br />
               <br />
