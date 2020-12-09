@@ -829,7 +829,7 @@ text-align: center;
 /* MENU MANILLAS  */
 
 .menumanillas {
-  border-radius: 40px;
+  border-radius: 10px;
   filter: opacity(50%);
 }
 
@@ -837,6 +837,17 @@ text-align: center;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   cursor: pointer;
+}
+
+.imageholder {
+  position:relative;
+
+}
+
+.imageholder span {
+  position:absolute;
+  right:10px;
+  top:10px;
 }
 
 .textomenumanillas h1 {
