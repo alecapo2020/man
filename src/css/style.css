@@ -859,10 +859,25 @@ text-align: center;
   text-align:center;
 }
 
+.textomenumanillas p {
+  text-align:center;
+  color:grey;
+}
+
+.subtitulomenumanillas h2 {
+  text-align:left;
+  font-weight:bold;
+  font-size:1.3rem;
+}
+
 .parrafomenumanillas {
   color:black;
-  text-align:center;
+  text-align:left;
   font-size:1.5rem;
+}
+
+.formulariocotizacion {
+  margin-left:70px;
 }
 
 .botoncotizacion {
