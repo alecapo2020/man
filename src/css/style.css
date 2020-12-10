@@ -13,6 +13,9 @@ body {
 nav {
   margin-top: 5%;
 }
+a{
+  text-decoration: none;
+}
 
 .navbar {
   background: #102e3e;
@@ -876,18 +879,24 @@ text-align: center;
   background:#dd821b;
 }
 
-.textoimagen {
-  position:relative;
-  text-align:center;
-  color:white;
+
+
+.overlay {
+  position: relative;
+  top: -50%;
+  left: 0%;
+  color:#636363;
+  text-align: center;
+  vertical-align: middle;
+  padding:0px;
+  margin:0px;
+  text-decoration: none;
+  font-weight: bold;
+  border:none;
 }
 
-.centrado {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
+
 /* RESPONSIVE  */
 
 @media(max-width:600px) {
