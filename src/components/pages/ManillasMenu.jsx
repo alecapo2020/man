@@ -14,7 +14,8 @@ const ManillasMenu = () => {
           </div>
 
           <div className="row">
-            <div className="col-md-4">
+            <div 
+            className="col-md-4">
               
                 <Link to="/productos/manillas-tyvek">
                   <img
