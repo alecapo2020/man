@@ -1,0 +1,24 @@
+[
+    {
+      "nombre": "Manillas de Seguridad Tyvek 3/4' Color Amarillo Neon",
+      "descripcion": " Manillas en papel Tyvek 3/4' (2cm de ancho) de alta resistencia con adhesivo de seguridad color amarillo neon",
+      "idProducto": "1",
+      "valor": "110000",
+      "impresion": "",
+      "cantidad": "1000",
+      "envio": "",
+      "cupon": "",
+      "id": 0
+    },
+    {
+      "nombre": "Manillas de Seguridad Tyvek 3/4' Color Rojo",
+      "descripcion": " Manillas en papel Tyvek 3/4' (2cm de ancho) de alta resistencia con adhesivo de seguridad color amarillo neon",
+      "idProducto": "2",
+      "valor": "110000",
+      "impresion": "",
+      "cantidad": "500",
+      "envio": "",
+      "cupon": "",
+      "id": 1
+    }
+]
