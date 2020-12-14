@@ -7,7 +7,7 @@ const Cotizacion = () => {
       <h1>Solicitud de cotización formal</h1>
       <p><strong>Hola, por favor diligencia los datos completamente</strong></p>
       <strong className="parrafomenumanillas">Datos de la empresa:</strong>
-      <div className="row py-3">
+      <div className="row">
       <form action="" className="">
           <div class="row formulariocotizacion">
             <label htmlFor="" className="col-3">Razón social:</label>
@@ -35,7 +35,109 @@ const Cotizacion = () => {
             <input type="email" class="col-7 formulario" name="CotizaCorreoContacto" id="" aria-describedby="helpId" placeholder=""/>    
           </div>
         </form>
-        
+        <strong className="parrafomenumanillas">Productos en los que esta interesado:</strong>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Producto</th>
+              <th scope="col">Cantidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <select class="form-select">
+                <option selected>Seleccione el producto</option>
+                <option value="ManillasTyvek">Manillas Tyvek</option>
+                <option value="ManillasPlasticas">Manillas Plasticas</option>
+                <option value="ManillasSublimadas">Manillas Sublimadas</option>
+                <option value="ManillasTejidas">Manillas Tejidas</option>
+                <option value="ManillasHospitalarias">Manillas Hospitalarias</option>
+                <option value="ManillasPlastisol">Manillas en Plastisol</option>
+                <option value="Hologramas">Hologramas de seguridad</option>
+              </select>
+              <td>
+                <label htmlFor="" className=""></label>
+                <input type="number" className="col-3 formulario" name="CotizaUnoCantidad" id=""/>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <select class="form-select">
+                <option selected>Seleccione el producto</option>
+                <option value="ManillasTyvek">Manillas Tyvek</option>
+                <option value="ManillasPlasticas">Manillas Plasticas</option>
+                <option value="ManillasSublimadas">Manillas Sublimadas</option>
+                <option value="ManillasTejidas">Manillas Tejidas</option>
+                <option value="ManillasHospitalarias">Manillas Hospitalarias</option>
+                <option value="ManillasPlastisol">Manillas en Plastisol</option>
+                <option value="Hologramas">Hologramas de seguridad</option>
+              </select>
+              <td>
+                <label htmlFor="" className=""></label>
+                <input type="number" className="col-3 formulario" name="CotizaUnoCantidad" id=""/>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <select class="form-select">
+                <option selected>Seleccione el producto</option>
+                <option value="ManillasTyvek">Manillas Tyvek</option>
+                <option value="ManillasPlasticas">Manillas Plasticas</option>
+                <option value="ManillasSublimadas">Manillas Sublimadas</option>
+                <option value="ManillasTejidas">Manillas Tejidas</option>
+                <option value="ManillasHospitalarias">Manillas Hospitalarias</option>
+                <option value="ManillasPlastisol">Manillas en Plastisol</option>
+                <option value="Hologramas">Hologramas de seguridad</option>
+              </select>
+              <td>
+                <label htmlFor="" className=""></label>
+                <input type="number" className="col-3 formulario" name="CotizaUnoCantidad" id=""/>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <select class="form-select">
+                <option selected>Seleccione el producto</option>
+                <option value="ManillasTyvek">Manillas Tyvek</option>
+                <option value="ManillasPlasticas">Manillas Plasticas</option>
+                <option value="ManillasSublimadas">Manillas Sublimadas</option>
+                <option value="ManillasTejidas">Manillas Tejidas</option>
+                <option value="ManillasHospitalarias">Manillas Hospitalarias</option>
+                <option value="ManillasPlastisol">Manillas en Plastisol</option>
+                <option value="Hologramas">Hologramas de seguridad</option>
+              </select>
+              <td>
+                <label htmlFor="" className=""></label>
+                <input type="number" className="col-3 formulario" name="CotizaUnoCantidad" id=""/>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">5</th>
+              <select class="form-select">
+                <option selected>Seleccione el producto</option>
+                <option value="ManillasTyvek">Manillas Tyvek</option>
+                <option value="ManillasPlasticas">Manillas Plasticas</option>
+                <option value="ManillasSublimadas">Manillas Sublimadas</option>
+                <option value="ManillasTejidas">Manillas Tejidas</option>
+                <option value="ManillasHospitalarias">Manillas Hospitalarias</option>
+                <option value="ManillasPlastisol">Manillas en Plastisol</option>
+                <option value="Hologramas">Hologramas de seguridad</option>
+              </select>
+              <td>
+                <label htmlFor="" className=""></label>
+                <input type="number" className="col-3 formulario" name="CotizaUnoCantidad" id=""/>
+              </td>
+            </tr>
+  
+          </tbody>
+        </table>
+ 
+
+          
+
       </div>
        
       <div className="text-center col-3 mx-auto">
