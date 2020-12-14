@@ -1,6 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { Fragment,useEffect } from 'react';
+import './manillasSublimadas.css';
 
 const ManillasSublimadas = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
 
         <Fragment>

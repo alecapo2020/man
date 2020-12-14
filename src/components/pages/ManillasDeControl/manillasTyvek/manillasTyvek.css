@@ -1,0 +1,54 @@
+/* Manillas tyvek */
+
+  .tyvek-header h1 {
+    text-align: center;
+    color:#F6AE2D;
+  
+  }
+  
+  
+  .tyvek-1 h2 {
+    text-align: left;
+    color:#F90315;
+    font-weight: bold;
+  }
+  
+  .tyvek-1 p {
+    text-align: justify;
+    
+  }
+  
+  .tyvek-2 p {
+    text-align: justify;
+  }
+  
+  .tyvek-2 h2 {
+    text-align: center;
+    color:#F6AE2D;
+    font-weight: bold;
+  }
+  
+  .tyvek-button {
+    background:#5f0f40;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  .tyvek-button:hover{
+    background:#F6AE2D;
+    border-radius: 10px;
+    border:none;
+    color:#616161;
+    padding: 10px 20px;
+    text-align: center;
+    
+  }
+  
+  .TyvekTitulo {
+    text-align: center;
+    color:#F6AE2D;
+    font-weight: bold;
+  }

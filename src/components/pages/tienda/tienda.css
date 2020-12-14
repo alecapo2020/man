@@ -1,0 +1,93 @@
+
+/* TIENDA  */
+
+.tienda-container{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .mas{
+    background:#8CC63F;
+    width:30px;
+    height:30px;
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:white;
+    cursor: pointer;
+  }
+  .menos{
+    background:#C1272D;
+    width:30px;
+    height:30px;
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .input_cantidad{
+    margin:0px;
+    padding:0px;
+    width:70px;
+    text-align:center;
+  }
+  
+  .tabla{
+    margin:0px;
+    padding:0px;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  .imagen{
+    border-radius:20px;
+    padding:0px;
+    margin-top:20%;
+    text-align:center;
+  }
+  
+  .linea{
+    border: 2px solid #666666;
+    padding:0;
+  }
+  
+  .borde{
+    border-radius:20px;
+    border:2px solid #666666;
+    padding:5px;
+  }
+  
+  .borde p{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contenido h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color:#C1272D;
+    text-align:center;
+    font-size:1.5rem;
+  }
+  
+  .contenido p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+  }
+  .categoria-p{
+    color:#B3B3B3;
+    font-size:1rem;
+    text-align:center;
+  }
+  
+  .valor{
+    text-align:center;
+    margin-left:30%;
+    color:#8f8f8f;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  

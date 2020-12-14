@@ -1,0 +1,23 @@
+/* contacto  */
+
+.borde-form{
+    border-radius:20px;
+    border:2px solid #F2F2F2;
+  }
+  
+  .inp{
+    background:#F2F2F2;
+  }
+  
+  .btn-form {
+    background:#8CC63F;
+    border:1px solid white;
+  }
+  
+  .contact-mensaje{
+    font-weight:700;
+    font-size:2.5rem;
+    text-align:center;
+    color:#8f8f8f;
+    margin-bottom:5%;
+  } 

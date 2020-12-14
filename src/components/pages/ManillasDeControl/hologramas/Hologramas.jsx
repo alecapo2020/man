@@ -1,6 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
+import './hologramas.css'
 
 const Hologramas = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <div className="container">

@@ -1,0 +1,32 @@
+
+/* manillas hospitalarias */
+
+.hospital-body h2 {
+    text-align: center;
+    color:#616161;
+  }
+  
+  .hospital-body p {
+    text-align:justify;
+  }
+  
+  .hospitalarias-cuadro-1 {
+    background-color:#0071BC;
+    color:white;
+    width: 80%;
+    padding: 0px;
+    margin-right: 10px;
+  }
+  
+  .hospitalarias-cuadro-1 p {
+    text-align:justify;
+    padding: 0px 10px;
+  }
+  
+  .hospitalarias-cuadro-1 h2 {
+    text-align:center;
+    font-weight:bold;
+    color:white;
+  }
+  
+  

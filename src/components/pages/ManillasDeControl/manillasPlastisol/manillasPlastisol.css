@@ -1,0 +1,28 @@
+/* Manillas Plastisol */
+
+.plastisol-encabezado h1 {
+    text-align:center;
+      color:#F6AE2D ;
+      font-weight: bold;
+    }
+  
+  .plasti-body h2 {
+    background-color:#F6AE2D;
+    color:white;
+    text-align:center;
+  }
+  
+  .plasti-body p {
+    text-align:justify ;
+  }
+  
+  .plasti-footer p {
+    text-align:justify ;
+  
+  }
+  
+  .plasti-footer h2 {
+    background-color:#F6AE2D ;
+    color:white ;
+    text-align:center ;
+  }

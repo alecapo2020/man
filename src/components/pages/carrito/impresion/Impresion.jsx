@@ -3,6 +3,7 @@ import React,{useState} from "react";
 const Impresion = ({cantidad,id}) => {
   const [impresion, setImpresion] = useState(0)
 
+  console.log(impresion)
   const valorImpresion = (estado) => {
     let valorImpresion = cantidad * 20;
     if (estado === true) {

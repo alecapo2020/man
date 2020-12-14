@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
+import './tienda.css'
 
 const Tienda = () => {
   const [Api, setApi] = useState([]);

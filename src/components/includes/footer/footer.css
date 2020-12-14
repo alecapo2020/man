@@ -1,0 +1,63 @@
+/* Footer  */
+
+.footer{
+    background:#182D3C;
+    width:100%;
+    padding:50px;
+    color:white;
+  }
+  
+  .texto-footer{
+    padding-left:50px;
+  }
+  
+  .texto-footer h2{
+    font-size:2rem;
+    font-weight:600;
+  }
+  
+  .texto-footer p{
+    font-size:1.2rem;
+    font-weight:300;
+  }
+  
+  .logo-footer{
+    border-right:4px solid white;
+  }
+  
+  .float-button {
+    text-decoration: none;
+    position: fixed;
+    padding: 8px;
+    padding-right: 15px;
+    bottom: 30px;
+    right: 35px;
+    background-color: #50c65e;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 4px 6px 0px rgba(173, 173, 173, 1);
+    z-index: 100;
+    font-family: arial;
+    font-size: 18px;
+    animation: whatsapp-animation 0.5s ease-in-out;
+    transition: background-color 0.3s ease;
+  }
+  
+  .float-button:hover {
+    background-color: #90d573;
+  }
+  
+  .fa-whatsapp {
+    font-size: 20px !important;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  @keyframes whatsapp-animation {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+  }
+  
+  

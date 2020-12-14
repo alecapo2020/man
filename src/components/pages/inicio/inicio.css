@@ -1,0 +1,90 @@
+/* Inicio */
+
+.foto {
+    width: 100%;
+    background-image: url("http://localhost:3000/img/inicio/manillas-en-bogota-y-medellin.webp"); /* The image used */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header h1{
+  color:#F6AE2D;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .header h2{
+  color:#F6AE2D;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .nuevafoto {
+    border-radius: 40px;
+    filter: grayscale(100%);
+  }
+  
+  .nuevafoto:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    cursor: pointer;
+  }
+  
+  .parrafo-header{
+    text-align: justify;
+  }
+  
+  .mensaje-header{
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 20px 0px;
+    color: #616161;
+  }
+  
+  .mensaje-header p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .header button{
+    background:#5f0f40;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    padding: 10px 20px;
+  }
+  
+  .header button:hover{
+    background:#F6AE2D;
+    border-radius: 10px;
+    border:none;
+    color:#616161;
+    padding: 10px 20px;
+    text-align: center;
+    
+  }
+  
+  /* Efecto Parallax */
+  
+  .parallax { 
+    /* The image used */
+    background-image: url("http://localhost:3000/img/inicio/fondo.webp");
+  
+    /* Set a specific height */
+    height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

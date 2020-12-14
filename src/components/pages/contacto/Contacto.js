@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import './contacto.css'
 
 export const Contacto = () => {
   

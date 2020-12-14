@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const Envio = () => {
   
   const [envio, setEnvio]  = useState(0)
+  console.log(envio)
 
   const valorEnvio = (estado) => {
     const valorEnvio = 12000;

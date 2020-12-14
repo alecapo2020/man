@@ -1,0 +1,117 @@
+
+.navbar {
+    background: #102e3e;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .navbar li {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .dropdown-navbar {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .navbar a:hover {
+    color: white;
+    background:#29abe2;
+    border-radius: 20px;
+  } 
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    cursor: pointer;
+  }
+  
+  .dropdown{
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  
+  .dropdown-menu {
+    background-color:#102e3e;
+  }
+  
+  .navbar-toggler-icon {
+    color:#29abe2;
+  }
+  
+  .contenedor-navbar {
+    margin: 0% 10% 2% 10%;
+    height: 100px;
+   }
+  
+  .banner-navbar {
+    background: #29abe2;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    
+  }
+  
+  .banner-navbar p {
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .fa-bars:hover {
+    color: #29abe2;
+  }
+  
+  .fa-shopping-cart{
+    color:black;
+  }
+  
+  .carrito-completo{
+    
+    color:white;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    margin-top:15px;
+    margin-right:15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .carrito-navbar{
+    background: white;
+    border-radius: 200px; 
+    padding:10px;
+    margin-right:10px;
+    margin-left:20px;
+    position: relative;
+  }
+  
+  .carrito-navbar a:hover{
+    background: white;
+   
+  }
+  
+  .contadorProductos{
+    background: red;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:-10px;
+  }
+  

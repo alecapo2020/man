@@ -1,0 +1,68 @@
+/* Manillas Sublimadas */
+
+.sublimadas-encabezado h1 {
+    text-align:center;
+      color:#F6AE2D ;
+      font-weight: bold;
+    }
+
+    .sublimadas-header h1 {
+      text-align:center;
+      color:#F6AE2D ;
+      font-weight: bold;
+    }
+
+    .sublimadas-header p {
+      text-align:justify;
+    }
+
+  .sublimadas-header h3 {
+    color:#F6AE2D
+  }
+
+.sublimadas-body h2 {
+  background-color:#5f0f40 ;
+  color:#F6AE2D ;
+  text-align: center;
+
+}
+
+.sublimadas-body p {
+  background-color:#5f0f40 ;
+  text-align: justify;
+  color:white;
+}
+
+.sublimadas-cuadro-1 {
+  background-color:#5f0f40;
+  color:white;
+  width: 80%;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.sublimadas-cuadro-1 p {
+  text-align:justify;
+  padding: 0px 10px;
+}
+
+.sublimadas-cuadro-1 h2 {
+  text-align:center;
+  font-weight:bold;
+  color:white;
+}
+
+.sublimadas-body-2 h2 {
+  background-color:#F6AE2D;
+  color:white;
+  text-align:center;
+}
+
+.sublimadas-body-2 p {
+  text-align:justify;
+}
+
+.sublimadas-body-2 h3 {
+  color:#F6AE2D;
+}
+

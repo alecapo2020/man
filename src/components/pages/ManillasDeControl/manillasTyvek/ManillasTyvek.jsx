@@ -1,28 +1,32 @@
-import React, { Fragment } from "react";
-import CarouselTyvek from "../../includes/CarouselTyvek";
-import CarouselTyvek2 from "../../includes/CarouselTyvek2";
-// import '../../../css/style.css';
+import React, { Fragment, useEffect } from "react";
+import CarouselTyvek from "./CarouselTyvek";
+import CarouselTyvek2 from "./CarouselTyvek2";
+import './manillasTyvek.css';
 
 const ManillasTyvek = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <Fragment>
-      <div className="container pb-5">
+      <div className="container p-5">
         <section className="tyvek-header">
-          <h1 className="TyvekTitulo"> Manillas de Papel Tyvek</h1>
-
-          <h2 className="my-5">
-            "Las manillas de identificación más confiables para cualquier
-            situación"
-          </h2>
+          
+         
 
           <div className="row">
-            <div className="col-md-6 tyvek-1">
-              <h2>Manillas de Identificación en Tyvek</h2>
+            <div className="col-md-7 tyvek-1">
+            <h1 className="TyvekTitulo"> Manillas de Papel Tyvek</h1>
+            <hr/>
+             
               <p>
-                Tyvek es una aleación de Nylon irrompible con un adhesivo de
+                Las <strong> Manillas en Tyvek </strong>son elaboradas a partir de aleación de Nylon irrompible, cuentan con adhesivo de
                 seguridad, el cual evita que las manillas para eventos se
                 despeguen o se caigan. Esto, junto con su impresión impermeable,
-                nos brindan una manilla de identificación ideal para un uso de
+                nos brindan una manilla de identificación ideal para una utilización maxima de
                 aproximadamente 3 días.
               </p>
               <h2>Características</h2>
@@ -30,7 +34,7 @@ const ManillasTyvek = () => {
               <ul>
                 <li> Material: Tyvek (Nylon Irrompible)</li>
                 <li> Numeración Serial Consecutiva </li>
-                <li> Adhesivo troquelado para maximizar su seguridad </li>
+                <li> Adhesivo troquelado que maximiza su seguridad </li>
                 <li> Impresión Impermeable de Alta Calidad </li>
                 <li> Ajustable a la muñeca </li>
                 <li> Apta para todo tipo de condiciones Climáticas</li>
@@ -49,23 +53,10 @@ const ManillasTyvek = () => {
                 razón, para hacer más llamativas las manillas para los usuarios
                 finales y que no siempre utilicen la misma.
               </p>
-              <p>Contamos con gran variedad de colores:</p>
-              <ul>
-                <li>Verde</li>
-                <li>Verde Neón</li>
-                <li>Verde Pasto</li>
-                <li>Amarillo Bandera</li>
-                <li>Amarillo Neón</li>
-                <li>Azul Claro</li>
-                <li>Azul Aguamarina</li>
-                <li>Azul Oscuro</li>
-                <li>Rojo</li>
-                <li>Naranja</li>
-                <li>Coral</li>
-              </ul>
+              
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-5">
               <CarouselTyvek />
             </div>
           </div>

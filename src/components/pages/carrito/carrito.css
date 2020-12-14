@@ -1,0 +1,80 @@
+/* Carrito  */
+
+.carritocuerpo h1 {
+    text-align:left;
+    font-size:2rem;
+    font-weight:bold;
+  }
+  
+  .carritocuerpo h2 {
+    font-size:1.7rem;
+    font-weight:bold;
+  }
+  
+  .carritocuerpo h3 {
+    text-align:left;
+    font-size:1.3rem;
+    font-weight:bold;
+  }
+  
+  .cuerpovalor {
+    font-weight:bold;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  
+  .cuerpovalor p {
+    font-size:1.3rem;
+  }
+  
+  .carritocuerpoeliminar {
+   width:100%;
+  }
+  
+  .carritocuerpoeliminar p {
+    color:red;
+    float:right;
+    margin-right:5%;
+  }
+  
+  .bordecarrito {
+    border-bottom:1px solid black;
+  }
+  
+  .bordecarrito2 p {
+    text-align:center;
+    font-weight:bold
+  }
+  
+  .cuerpocantidad p {
+    font-weight:bold;
+    font-size:1.2rem;
+  }
+  
+  .subtotal p {
+    font-weight:bold;
+    width:100%;
+    text-align:right;
+  }
+  
+  .alerta {
+    color:#616161;
+    background-color:#fffed9;
+    text-align:left;
+  }
+  
+  .botoncarrito {
+    background:#F7931e;
+    color:white;
+    border-radius:10px;
+    border:none;
+    width:70%;
+    padding:8px;
+  
+  }
+  
+  .botoncarrito:hover {
+    background:#dd821b;
+  }
+  

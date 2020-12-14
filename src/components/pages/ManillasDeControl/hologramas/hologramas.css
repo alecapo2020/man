@@ -1,0 +1,55 @@
+/* hologramas */
+
+.hologramas-header h1 {
+    text-align: center;
+      color:#F6AE2D ;
+      font-weight: bold;
+    }
+    
+    .hologramas-header h2 {
+      text-align: center ;
+      color:#F6AE2D ; 
+      font-weight:bold ;
+    }
+    
+    .hologramas-header p {
+      text-align:justify;
+      padding: 0px 10px;
+    }
+    
+    .hologramas-body h2 {
+      text-align: center ;
+      color:#F6AE2D ; 
+      font-weight:bold ;
+    }
+    
+    .hologramas-body p {
+      text-align:justify;
+      padding: 0px 10px;
+    }
+    
+    .holograma-fondo h2 {
+      text-align: center ;
+      color:white ; 
+      font-weight:bold ;
+      background-color:#F6AE2D
+    }
+    
+    .holograma-fondo {
+      text-align:justify;
+      color:white;
+      padding: 0px 0px;
+      background-color:#F6AE2D
+    }
+    
+    .holograma-morado {
+      text-align:justify;
+      color:white;
+      padding: 0px 0px;
+      background-color:#5f0f40
+    }
+    
+    .holograma-morado h2 {
+      text-align:center;
+      font-weight:bold;
+    }

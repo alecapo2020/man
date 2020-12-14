@@ -1,0 +1,35 @@
+
+/* manillas plasticas */
+
+.plastic-header h1 {
+    text-align: center;
+    color:#F6AE2D ;
+    font-weight: bold;
+  }
+  
+  .plastic-header h2 {
+    text-align: center;
+    color:#616161;
+  }
+  
+  .plastic-header h3 {
+    text-align: center;
+    color:#616161;
+  }
+  
+  .plastic-1 h2 {
+    text-align: center;
+    color:#F6AE2D;
+    font-weight:bold;
+    }
+  
+  .plastic-2 h2 {
+    text-align: center ;
+    color:#F6AE2D ; 
+    font-weight:bold ;
+  }
+  
+  .plastic-2 p {
+    text-align:justify;
+  }
+  
